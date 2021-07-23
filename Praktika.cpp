@@ -314,6 +314,7 @@ void Edit(vector<kratko>* Day)
                     break;
             }
             (*Day)[D - 1] = temp;
+            system("cls");
             break;
         }
     }
@@ -533,7 +534,7 @@ void MenuSort()
     cout << "Пожайлуста выберите один из пунктов" << endl << endl;
     cout << "1.Сортировка за возрастанием" << endl << endl;
     cout << "2.Сортировка за убыванием" << endl << endl;
-    cout << "3.Выход" << endl << endl;
+    cout << "3.Вернуться назад." << endl << endl;
     cout << "Введите цифру: ";
 }
 void SortMin(vector <kratko>& Day)
